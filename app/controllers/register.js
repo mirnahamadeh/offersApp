@@ -1,9 +1,10 @@
 var args = arguments[0] || {};
+var api = require("api");
 //alert("hello "+ )
 //$.lbl.text = args.val;
 
 function regist() {
-	Cloud.Users.create({
+	api.create({
 		username : $.txtName.value,
 		password : $.txtPass.value,
 		password_confirmation : $.txtRepPass.value,
