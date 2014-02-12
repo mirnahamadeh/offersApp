@@ -1,0 +1,25 @@
+<Alloy>
+	<Window id="win2" navBarHidden="false"  class="container1" title="Register">
+		<ScrollView id="scroll1">
+			<View id="viewback">
+				<Button id="back" title="Back" onClick="back"></Button>
+			</View>
+			<View id="viewname">
+				<Label id="lbname"></Label>
+				<TextField id="txtname"></TextField>
+			</View>
+			<View id="viewpass">
+				<Label id="lbpass"></Label>
+				<TextField id="txtpass"></TextField>
+			</View>
+			<View id="viewreppass">
+				<Label id="lbreppass"></Label>
+				<TextField id="txtreppass"></TextField>
+			</View>
+			<View id="viewregist">
+				<Button id="registerBtn" title="  register  " onClick="regist"></Button>
+			</View>
+		</ScrollView>
+	</Window>
+	
+</Alloy>

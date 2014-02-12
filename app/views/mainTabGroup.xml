@@ -1,0 +1,43 @@
+<Alloy>
+	<TabGroup backgroundColor="white" >
+		<Tab id="tab1" title="OFFERS" icon="tab1.jpeg">
+			<Window id="win1" title="Offers">
+				<TableView id="table1" onClick="openwin">
+					<TableViewRow id="viewrow1" >
+						<View id="view1">
+							<ImageView id="im" image="imageview.jpeg"></ImageView>
+							<Label id="title" text="row1"></Label>
+						</View>
+						<View id="view2">
+							<Label id="detail" text="hello world blabla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla  "></Label>
+						</View>
+					</TableViewRow>
+					<TableViewRow id="viewrow2">
+						<View id="view1">
+							<ImageView id="im" image="imageview.jpeg"></ImageView>
+							<Label id="title" text="row2"></Label>
+						</View>
+						<View id="view2">
+							<Label id="detail" text="hello world blabla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla  "></Label>
+						</View>
+					</TableViewRow>
+				</TableView>
+
+			</Window>
+		</Tab>
+		<Tab id="tab2" title="Profile" icon="tab2.jpeg">
+			<Window id="win2" title="PROFILE">
+				<Label id="label1" color="#999">I am label 1</Label>
+				<ImageView id="im" image="imageview.jpeg"></ImageView>
+			</Window>
+		</Tab>
+		
+		<Tab id="tab2" title="BookMark" icon="tab2.jpeg">
+			<Window id="win3" title="BOOKMARK">
+				<Label id="label1" color="#999">I am label 1</Label>
+				<ImageView id="im" image="imageview.jpeg"></ImageView>
+			</Window>
+		</Tab>
+		<!-- Use the Require tag to include external Ti.UI.Tab views -->
+	</TabGroup>
+</Alloy>
