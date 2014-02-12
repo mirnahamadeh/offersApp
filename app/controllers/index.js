@@ -1,19 +1,6 @@
-function doClick(e) {
-   var newWin1 = Alloy.createController('mainTabGroup', {
-	val : $.lbname.text
+
+   var newWin1 = Alloy.createController('loginWin', {
 	});
 	newWin1.getView().open();
-}
 
-function register(e) {
-   var newWin = Alloy.createController('register', {
-		val : $.lbname.text
-	
-	});
-	newWin.getView().open();
-}
-function openwin(e) {
-	 
-	
-}
-$.win.open();
+

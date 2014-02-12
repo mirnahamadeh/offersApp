@@ -1,21 +1,5 @@
 <Alloy>
 	<Window id="win " class="container">
-		<ScrollView id="scroll">
-			<View id="imageview">
-				<ImageView image="" id="im"></ImageView>
-			</View>
-			<View id="viewname">
-				<Label id="lbname"></Label>
-				<TextField id="txtname"></TextField>
-			</View>
-			<View id="viewpass">
-				<Label id="lbpass"></Label>
-				<TextField id="txtpass"></TextField>
-			</View>
-			<View id="viewlogin">
-				<Button id="login" title="  login  " onClick="doClick"></Button>
-				<Button id="signup" title="  register  " onClick="register"></Button>
-			</View>
-		</ScrollView>
+		
 	</Window>
 </Alloy>
