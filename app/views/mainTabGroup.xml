@@ -3,8 +3,8 @@
 		<Tab id="tab1" title="OFFERS" icon="tab1.jpeg">
 			<Window id="win1" title="Offers">
 				<TableView id="table1" onClick="openwin">
-					<TableViewRow id="viewrow1" >
-				<!--		<View id="view1">
+					<!-- <TableViewRow id="viewrow1" >
+						<View id="view1">
 							<ImageView id="im" image="imageview.jpeg"></ImageView>
 							<Label id="title" text="row1"></Label>
 						</View>
