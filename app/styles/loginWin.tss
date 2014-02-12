@@ -8,14 +8,14 @@ backgroundColor:"white",
 layout:"vertical"
 },
 
-"#imageview":{
+"#imageView":{
 	backgroundColor : 'white',
 width : Ti.UI.FILL,
 height : 100,
 left : 0,
 top : 50,
 },
-"#viewname":{
+"#viewName":{
 backgroundColor : 'white',
 width : Ti.UI.FILL,
 height : Ti.UI.SIZE,
@@ -23,7 +23,7 @@ left : 0,
 top : 50,
 },
 
-"#lbname":{
+"#lbName":{
 
 color : '#000',
 text : 'Email ',
@@ -39,7 +39,7 @@ left : 10
 
 },
 
-"#txtname":{
+"#txtName":{
 
 paddingLeft : 5,
 top : 10,
@@ -53,7 +53,7 @@ borderWidth : 1,
 borderRadius : 4
 },
 
-"#viewpass":{
+"#viewPass":{
 backgroundColor : 'white',
 width : Ti.UI.FILL,
 height : Ti.UI.SIZE,
@@ -61,7 +61,7 @@ left : 0,
 top : 40,
 },
 
-"#lbpass":{
+"#lbPass":{
 
 color : '#000',
 text : 'Password ',
@@ -77,7 +77,7 @@ left : 10
 
 },
 
-"#txtpass":{
+"#txtPass":{
 
 paddingLeft : 5,
 top : 15,
@@ -92,7 +92,7 @@ borderWidth : 1,
 borderRadius : 4
 },
 
-"#viewlogin":{
+"#viewLogin":{
 backgroundColor : 'white',
 width : Ti.UI.FILL,
 height : Ti.UI.SIZE,

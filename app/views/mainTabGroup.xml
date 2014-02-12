@@ -1,7 +1,7 @@
 <Alloy>
 	<TabGroup backgroundColor="white" >
-		<Tab id="tab1" title="OFFERS" icon="tab1.jpeg">
-			<Window id="win1" title="Offers">
+		<Tab id="tab1" title="offers" icon="tab1.jpeg">
+			<Window id="win1" title="OFFERS">
 				<TableView id="table1" onClick="openwin">
 					<!-- <TableViewRow id="viewrow1" >
 						<View id="view1">

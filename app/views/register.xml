@@ -1,22 +1,22 @@
 <Alloy>
 	<Window id="win2" navBarHidden="false"  class="container1" title="Register">
 		<ScrollView id="scroll1">
-			<View id="viewback">
+			<View id="viewBack">
 				<Button id="back" title="Back" onClick="back"></Button>
 			</View>
-			<View id="viewname">
-				<Label id="lbname"></Label>
-				<TextField id="txtname"></TextField>
+			<View id="viewName">
+				<Label id="lbName"></Label>
+				<TextField id="txtName"></TextField>
 			</View>
-			<View id="viewpass">
-				<Label id="lbpass"></Label>
-				<TextField id="txtpass"></TextField>
+			<View id="viewPass">
+				<Label id="lbPass"></Label>
+				<TextField id="txtPass"></TextField>
 			</View>
-			<View id="viewreppass">
-				<Label id="lbreppass"></Label>
-				<TextField id="txtreppass"></TextField>
+			<View id="viewRepPass">
+				<Label id="lbRepPass"></Label>
+				<TextField id="txtRepPass"></TextField>
 			</View>
-			<View id="viewregist">
+			<View id="viewRegist">
 				<Button id="registerBtn" title="  register  " onClick="regist"></Button>
 			</View>
 		</ScrollView>

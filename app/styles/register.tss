@@ -7,7 +7,7 @@ backgroundColor:"white",
 layout:"vertical"
 },
 
-"#viewback":{
+"#viewBack":{
 backgroundColor : 'white',
 width : Ti.UI.FILL,
 height : Ti.UI.SIZE,
@@ -31,7 +31,7 @@ top : 50,
 	
 },
 
-"#viewname":{
+"#viewName":{
 backgroundColor : 'white',
 width : Ti.UI.FILL,
 height : Ti.UI.SIZE,
@@ -39,7 +39,7 @@ left : 0,
 top : 30,
 },
 
-"#lbname":{
+"#lbName":{
 
 color : '#000',
 text : 'Email ',
@@ -55,7 +55,7 @@ left : 10
 
 },
 
-"#txtname":{
+"#txtName":{
 
 paddingLeft : 5,
 top : 10,
@@ -69,7 +69,7 @@ borderWidth : 1,
 borderRadius : 4
 },
 
-"#viewpass":{
+"#viewPass":{
 backgroundColor : 'white',
 width : Ti.UI.FILL,
 height : Ti.UI.SIZE,
@@ -77,7 +77,7 @@ left : 0,
 top : 40,
 },
 
-"#lbpass":{
+"#lbPass":{
 
 color : '#000',
 text : 'Password ',
@@ -93,7 +93,7 @@ left : 10
 
 },
 
-"#txtpass":{
+"#txtPass":{
 
 paddingLeft : 5,
 top : 15,
@@ -108,7 +108,7 @@ borderWidth : 1,
 borderRadius : 4
 },
 
-"#viewreppass":{
+"#viewRepPass":{
 backgroundColor : 'white',
 width : Ti.UI.FILL,
 height : Ti.UI.SIZE,
@@ -117,7 +117,7 @@ top : 40,
 },
 
 
-"#lbreppass":{
+"#lbRepPass":{
 
 	color : '#000',
 	text : ' repeat Password ',
@@ -132,7 +132,7 @@ top : 40,
 
 },
 
-"#txtreppass":{
+"#txtRepPass":{
 
 	paddingLeft : 5,
 	top : 15,
@@ -147,7 +147,7 @@ top : 40,
 	borderRadius : 4
 },
 
-"#viewregist":{
+"#viewRegist":{
 	backgroundColor : 'white',
 	width : Ti.UI.FILL,
 	height : Ti.UI.SIZE,
@@ -156,10 +156,10 @@ top : 40,
 },
 
 "#registerBtn":{
-	top:25,
+	top:10,
 		left : 20,
 		right:20,
-		height : 50,
+		height : 40,
 		borderRadius : 5,
 		borderWidth : 1,
 		borderColor : '#007aff',
