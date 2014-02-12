@@ -4,7 +4,7 @@
 			<Window id="win1" title="Offers">
 				<TableView id="table1" onClick="openwin">
 					<TableViewRow id="viewrow1" >
-						<View id="view1">
+				<!--		<View id="view1">
 							<ImageView id="im" image="imageview.jpeg"></ImageView>
 							<Label id="title" text="row1"></Label>
 						</View>
@@ -21,6 +21,7 @@
 							<Label id="detail" text="hello world blabla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla  "></Label>
 						</View>
 					</TableViewRow>
+				-->
 				</TableView>
 
 			</Window>
